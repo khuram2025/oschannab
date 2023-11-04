@@ -1,0 +1,7 @@
+config.php
+oc-content/uploads/
+oc-content/downloads/
+oc-content/backup/
+*.sql
+*.tar.gz
+*.zip

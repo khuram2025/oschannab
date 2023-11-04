@@ -1,0 +1,110 @@
+{
+    "SPDXID": "SPDXRef-osclass",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-08-19T00:34:53.583Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Osclass 8.1.2",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-osclass"
+    ],
+    "documentNamespace": "osclass-8.1.2",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-osclass",
+            "name": "Osclass",
+            "versionInfo": "8.1.2",
+            "downloadLocation": "https://deac-ams.dl.sourceforge.net/project/osclass-by-osclasspoint/osclass-v8.1.2.zip",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:osclass:osclass:8.1.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/osclass@8.1.2?arch=amd64"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "jquery-ui",
+            "SPDXID": "SPDXRef-Package-ada8a7d808146beb",
+            "versionInfo": "1.13.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:npm/jquery-ui@1.13.2"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: jquery-ui@1.13.2"
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "jquery-ui",
+            "SPDXID": "SPDXRef-Package-c26d0ddcbd075092",
+            "versionInfo": "1.12.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:npm/jquery-ui@1.12.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: jquery-ui@1.12.1"
+            ],
+            "filesAnalyzed": false
+        },
+        {
+            "name": "node-pkg",
+            "SPDXID": "SPDXRef-Application-24f8a80152e2c0fc",
+            "downloadLocation": "NONE",
+            "sourceInfo": "Node.js",
+            "copyrightText": "NOASSERTION",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "filesAnalyzed": false
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-osclass",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-Application-24f8a80152e2c0fc"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-24f8a80152e2c0fc",
+            "relatedSpdxElement": "SPDXRef-Package-ada8a7d808146beb",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Application-24f8a80152e2c0fc",
+            "relatedSpdxElement": "SPDXRef-Package-c26d0ddcbd075092",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}

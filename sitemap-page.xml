@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>https://channab.com/</loc>
+  <changefreq>always</changefreq>
+ </url>
+ <url>
+  <loc>https://channab.com/search</loc>
+  <changefreq>always</changefreq>
+ </url>
+ <url>
+  <loc>https://channab.com/example_page-p23</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://channab.com/about-us-p25</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://channab.com/working-with-channab-p26</loc>
+  <changefreq>monthly</changefreq>
+ </url>
+</urlset>
